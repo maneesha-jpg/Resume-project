@@ -1,0 +1,79 @@
+.resume-container
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar
+{
+    background-color:#3a3a5c;
+    text-align: center;
+    height:900px;
+    width:auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left:20px;
+    padding-right:50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+.photo
+{
+    height:100px;
+    width: 100px;
+    border-radius:50%;
+    border:10px solid white;
+    border-width: 5px;
+}
+
+.profile
+{
+    color:white;
+    
+}
+.contact
+{
+    color:white;
+    
+}
+.skills
+{
+    color:white;
+    border-bottom: #e3daf0;
+}
+.skill-1
+{
+    background-color: #414175;
+    padding:7px;
+    margin:5px;
+    border-radius:5px;
+    height:25px;
+    width:200px;
+}
+ul {
+    list-style-type: none;
+  }
+.content
+{
+    flex-grow: 1;
+    background-color:white;
+    padding-left:25px;
+    padding-top: 25px;
+    overflow-y: visible;
+}
+.job,.education,.project
+{
+    background-color:#e3daf0;
+    padding-left:5px;
+    padding-top:3px;
+    padding-bottom:3px;
+    margin:4px;
+    height: auto;
+    width: auto;
+    border-top-left-radius:5px;
+    border-bottom-left-radius: 5px;
+    border-left:5px solid lightblue;
+    box-shadow: 0px rgb(0,0,0,0.1);
+}
